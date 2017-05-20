@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+.window-container {
+  height: 100vh;
+  display: flex;
+}
+main {
+  flex-direction: row;
+  display: flex;
+  height: 100vh;
+  width: 60%;
+}
+.section-container {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
+  width: 100%;
+}
+section {
+  height: 33.333%;
+  width: 33.333%;
+  display: flex;
+}
+.header {
+  height: 33.333%;
+  width: 66.666%;
+  display: flex;
+  background-color: red;
+}
+.s1 {
+  background-color: orange;
+}
+.s2 {
+  background-color: blue;
+}
+.s3 {
+  background-color: yellow;
+}
+.s4 {
+  background-color: purple;
+}
+.s5 {
+  background-color: green;
+}
+.s6 {
+  color: #FFFFFF;
+  background-color: black;
+}
+.s7 {
+  background-color: grey;
+}
+aside {
+  display: flex;
+  background-color: #FF99FF;
+  width: 40%;
+}
