@@ -1,5 +1,9 @@
 body {
   margin: 0;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.8px;
 }
 .window-container {
   height: 100vh;
@@ -21,37 +25,133 @@ section {
   height: 33.333%;
   width: 33.333%;
   display: flex;
+  color: #FFFFFF;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
 }
 .header {
   height: 33.333%;
   width: 66.666%;
   display: flex;
-  background-color: red;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: rgba(100,100,255, 1.0);
+  color: #FFFFFF;
+}
+.header-styling {
+  margin: 0 10px;
+  padding-left: 20px;
+
+}
+h1 {
+  display: block;
+  height: auto;
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.header-p {
+  height: 20%;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+}
+button {
+  margin-right: 10px;
+  height: 40px;
+  width: 100px;
+  color: #FFFFFF;
+  background: none;
+  border: 2px solid #FFFFFF;
+  font-family: inherit;
+  font-size: 12px;
+}
+section img {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+section p {
+  font-size: 10px;
+  font-weight: 300;
 }
 .s1 {
-  background-color: orange;
+  background-color: rgba(55,56,84, 1.0);
 }
 .s2 {
-  background-color: blue;
+  background-color: rgba(158,55,159, 1.0);
 }
 .s3 {
-  background-color: yellow;
+  background-color: rgba(73,50,103, 1.0);
 }
 .s4 {
-  background-color: purple;
+  background-color: rgba(158,55,159, 1.0);
 }
 .s5 {
-  background-color: green;
+  background-color: rgba(55,56,84, 1.0);
 }
 .s6 {
-  color: #FFFFFF;
-  background-color: black;
+  background-color:  rgba(158,55,159, 1.0);
 }
 .s7 {
-  background-color: grey;
+  background-color: rgba(73,50,103, 1.0);
 }
 aside {
   display: flex;
-  background-color: #FF99FF;
+  background-color: rgba(100,100,255, 1.0);
   width: 40%;
+  color: #FFFFFF;
+  background-image: url('/Users/davidbecker/Documents/Turing Mod 1/static-comp-1/static-comp1/mad-wallace/17861579_1335855086501075_2210598129792508352_n.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: hard-light;
+  background-size: 112% 112%;
+}
+
+/*ASIDE NAVIGATION*/
+
+.aside-navigation {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+}
+.top-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.pic-sort-top {
+  display: flex;
+}
+.pic-sort-top img {
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+}
+.bottom-btn-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+}
+.pic-sort-middle {
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+width: 100%;
+}
+.pic-sort-middle img {
+  height: 40px;
+  width: 40px;
 }
