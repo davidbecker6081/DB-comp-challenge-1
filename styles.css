@@ -95,8 +95,7 @@ h1 {
 section img {
   height: 70px;
   width: 70px;
-  margin-bottom: 10px;
-  padding-left: 10px;
+  margin-bottom: 15px;
 }
 section p {
   font-size: 12px;
@@ -177,7 +176,7 @@ aside {
   display: flex;
 }
 .pic-sort-top button:nth-of-type(1) {
-  background-color: rgba(46,33,136,0.8);
+  background-color: rgba(46,33,136,0.6);
   border-radius: 50%;
 }
 .bottom-btn-container {
@@ -215,7 +214,7 @@ width: 100%;
   background-size: contain;
 }
 aside button:hover {
-  background-color: rgba(46,33,136,0.8);
+  background-color: rgba(46,33,136,0.6);
   border-radius: 50%;
   box-shadow: 0 0 2px rgba(199,199,199,0.9) inset;
 }
